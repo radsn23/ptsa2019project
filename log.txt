@@ -1,9 +1,3 @@
-# ptsa2019project
-Project about Residual Recurrent Neural Networks
-
-
-### Shreyas - 11/14/2019
-
 Progress so far
 
 Read through the paper fully
@@ -25,14 +19,12 @@ insights for both datasets are same
 Tried RNN model using LSTM. Able to train a model and see some result. but lots of debugging still left
 used code from https://towardsdatascience.com/lstm-for-time-series-prediction-de8aeb26f2ca#:~:targetText=The%20idea%20of%20using%20a,looking%20only%20at%20its%20past.
 
-### Shreyas - 11/20/2019
-
-### meeting 1:
+meeting 1:
 
 the data given is mean data
 anomaly might correspond to SD or max values in a month
 
-### feedback from cristina:
+feedback from cristina:
 
 she was not sure what 'In the case of the ENSO dataset, we perform a 6 month ahead prediction, which means that the minimum
 possible lag of VAR was 6' means
@@ -44,7 +36,7 @@ suggested to first try on fake data
 six month ahead prediction does not mean that the x_t should depend on x_{t-6} or later
 we can fit any ar(p) model and perform six month ahead prediction
 
-### changes made to code:
+changes made to code:
 
 fixed data being used (only mean data)
 subtracting the means for each month across all years in training before feeding data to model
