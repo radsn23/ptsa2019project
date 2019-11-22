@@ -49,3 +49,19 @@ added non linearity and modeled it
 to do:
 run lstm on fake non linear data
 run r2n2 on fake non linear data
+
+changes made:
+
+ar_fakedata.ipynb
+rnn_fakedata.ipynb
+
+are complete.
+
+ar_fakedata.ipynb fits
+
+1. AR model on fake linear data to verify if AR process works for some p
+2. AR model on fake non linear data to verify if AR process works for same p
+
+rnn_fakedata.ipynb fits
+
+1. fake non linear data to verify if rnn fits the non linearity better than AR for same p
